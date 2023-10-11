@@ -43,7 +43,8 @@ Enter 2nd number:2
 The largest number is 46.0 
 # note:-Inside an **f-string**, you can include expressions enclosed in curly braces** {} **which will be evaluated at runtime and their results will be inserted into the string.
 
-# check for prime numbers write a simple code in python ??
+# check for prime numbers write a simple code in python ?
+```
 num=int(input("Enter a number:-"))
 if num>1:
     for i in range (2,0,num):
@@ -51,6 +52,7 @@ if num>1:
         break
     else:
           print(num,"is a prime number")
+```
 
  # output  
  Enter a number:-7
