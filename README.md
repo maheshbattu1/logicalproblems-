@@ -52,16 +52,14 @@ if num > 1:
             print(f"{num} is not a prime number.")
             break
     else:
-        print(f"{num} is a prime number.")
+        print((num),"is a prime number.")
 else:
-    print(f"{num} is not a prime number.")
+    print((num), "is not a prime number.")
 ```
-
  # output  
  Enter a number:-7
 7 is a prime number 
-  but i can't do this problem 100% solution because if I Enter an another number:-23
-23 is not a prime number 
+
 # Write a Python program that checks if a given year is a leap year ?
 ```
 year = int(input("Enter a year: "))
