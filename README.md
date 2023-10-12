@@ -59,6 +59,26 @@ if num>1:
 7 is a prime number 
   but i can't do this problem 100% solution because if I Enter an another number:-23
 23 is not a prime number 
+# Write a Python program that checks if a given year is a leap year ?
+```
+year = int(input("Enter a year: "))
+if (year % 4 == 0 and year % 100 != 0):
+    print(year, "is a leap year.")
+else:
+    print(year, "is not a leap year.")
+```
+# output
+Enter a year:2024
+2024 is leap year
+Enter a year: 1990
+1990 is not a leap year.
+# conclusion the above problem<<<<
+in the  if condition **(year%4==0)** the condition was satisfied then print t(year, "is a leap year.") 
+some other years like eg 1990 is also (year%4==0) satisfied this condition but 1990 is not a leap year....!
+then now we can use the Bitwaise operators like **{and ,or , xor, not}**  Here we are choosing operstor is **and** means Sets each if both operators are 1( 1 meams true)
+now we implement the **{ year % 100 != 0}** here its not satisfied the condition then the both are not True the 1990 is not a leap year..
+ 
+ 
       
 
 
