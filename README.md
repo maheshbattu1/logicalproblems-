@@ -78,7 +78,17 @@ in the  if condition **(year%4==0)** the condition was satisfied then print t(ye
 some other years like eg 1990 is also (year%4==0) satisfied this condition but 1990 is not a leap year....!
 then now we can use the Bitwaise operators like **{and ,or , xor, not}**  Here we are choosing operstor is **and** means Sets each if both operators are 1( 1 meams true)
 now we implement the **{ year % 100 != 0}** here its not satisfied the condition then the both are not True the 1990 is not a leap year..
- 
+
+#  calculate the area of rectangle ??
+```
+a = int(input("lenght of side a ="))
+b = int(input("breadth of  side b ="))
+c = int(input("lenght of  side c ="))
+d = int(input("breadth of  side d ="))
+s =(((a+c)/2)+((b+d)/2))
+print(s)
+ ```
+
  
       
 
